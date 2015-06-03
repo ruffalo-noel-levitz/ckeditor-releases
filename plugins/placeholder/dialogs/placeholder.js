@@ -12,17 +12,15 @@
 			title: 'Receipt Merge Field',//lang.title,
 			minWidth: 300,
 			minHeight: 80,
-			contents: [
-				{
+			contents: [{
 				id: 'info',
 				label: generalLabel,
 				title: generalLabel,
-				elements: [
-					{
-					  id: 'text',
-					  type: 'select',
-            items:[['First Name'],['Last Name'],['Donation Amount'],['Donation Date'],['Project Title'],['Perk Name'],['Perk FMV'],['Tax Deductible Amount']],
-            default:['First Name'],
+				elements: [{
+					id: 'text',
+					type: 'select',
+        			items:[['First Name'],['Last Name'],['Donation Amount'],['Donation Date'],['Project Title'],['Perk Name'],['Perk FMV'],['Tax Deductible Amount']],
+        			default:['First Name'],
 
 					//type: 'text',
 					style: 'width: 100%;',
@@ -39,10 +37,8 @@
 						// The placeholder must be recreated.
 						CKEDITOR.plugins.placeholder.createPlaceholder( editor, element, text );
 					}
-				}
-				]
-			}
-			],
+				}]
+			}],
 			onShow: function() {
 				if ( isEdit )
 					this._element = CKEDITOR.plugins.placeholder.getSelectedPlaceHolder( editor );
