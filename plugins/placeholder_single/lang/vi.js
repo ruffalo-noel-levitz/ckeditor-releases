@@ -3,10 +3,10 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'vi', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'vi', {
 	title: 'Thuộc tính đặt chỗ',
 	toolbar: 'Tạo đặt chỗ',
 	text: 'Văn bản đặt chỗ',
 	edit: 'Edit Placeholder', // MISSING
-	textMissing: 'The placeholder must contain text.' // MISSING
+	textMissing: 'The placeholder_single must contain text.' // MISSING
 });

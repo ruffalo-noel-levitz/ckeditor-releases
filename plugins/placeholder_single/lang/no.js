@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'no', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'no', {
 	title: 'Egenskaper for plassholder',
 	toolbar: 'Opprett plassholder',
 	text: 'Tekst for plassholder',

@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'pl', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'pl', {
 	title: 'Właściwości wypełniacza',
 	toolbar: 'Utwórz wypełniacz',
 	text: 'Tekst wypełnienia',

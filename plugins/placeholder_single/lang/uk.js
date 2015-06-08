@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'uk', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'uk', {
 	title: 'Налаштування Заповнювача',
 	toolbar: 'Створити Заповнювач',
 	text: 'Текст Заповнювача',

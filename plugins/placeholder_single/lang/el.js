@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'el', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'el', {
 	title: 'Ιδιότητες Υποκατάστατου Κειμένου',
 	toolbar: 'Δημιουργία Υποκατάσταστου Κειμένου',
 	text: 'Υποκαθιστόμενο Κείμενο',

@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'fa', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'fa', {
 	title: 'ویژگی‌های محل نگهداری',
 	toolbar: 'ایجاد یک محل نگهداری',
 	text: 'متن محل نگهداری',

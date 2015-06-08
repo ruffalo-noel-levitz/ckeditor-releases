@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'he', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'he', {
 	title: 'מאפייני שומר מקום',
 	toolbar: 'צור שומר מקום',
 	text: 'תוכן שומר המקום',

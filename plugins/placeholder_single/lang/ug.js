@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'ug', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'ug', {
 	title: 'ئورۇن بەلگە خاسلىقى',
 	toolbar: 'ئورۇن بەلگە قۇر',
 	text: 'ئورۇن بەلگە تېكىستى',

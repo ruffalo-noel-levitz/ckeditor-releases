@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'eo', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'eo', {
 	title: 'Atributoj de la rezervita spaco',
 	toolbar: 'Krei la rezervitan spacon',
 	text: 'Texto de la rezervita spaco',

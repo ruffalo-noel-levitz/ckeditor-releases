@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'fr', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'fr', {
 	title: 'Propriétés de l\'Espace réservé',
 	toolbar: 'Créer l\'Espace réservé',
 	text: 'Texte de l\'Espace réservé',

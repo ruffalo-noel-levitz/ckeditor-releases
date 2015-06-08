@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'fi', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'fi', {
 	title: 'Paikkamerkin ominaisuudet',
 	toolbar: 'Luo paikkamerkki',
 	text: 'Paikkamerkin teksti',

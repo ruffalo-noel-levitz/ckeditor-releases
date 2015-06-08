@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'cs', {
+CKEDITOR.plugins.setLang( 'placeholder_single_single', 'cs', {
 	title: 'Vlastnosti vyhrazeného prostoru',
 	toolbar: 'Vytvořit vyhrazený prostor',
 	text: 'Vyhrazený text',

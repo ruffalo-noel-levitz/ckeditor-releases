@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'it', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'it', {
 	title: 'Proprietà segnaposto',
 	toolbar: 'Crea segnaposto',
 	text: 'Testo segnaposto',

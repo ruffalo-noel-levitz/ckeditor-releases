@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'bg', {
+CKEDITOR.plugins.setLang( 'placeholder_single_single', 'bg', {
 	title: 'Настройки на контейнера',
 	toolbar: 'Нов контейнер',
 	text: 'Текст за контейнера',

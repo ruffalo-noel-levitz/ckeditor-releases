@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'tr', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'tr', {
 	title: 'Yer tutucu özellikleri',
 	toolbar: 'Yer tutucu oluşturun',
 	text: 'Yer tutucu metini',

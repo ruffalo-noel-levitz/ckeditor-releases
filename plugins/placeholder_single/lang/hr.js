@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'hr', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'hr', {
 	title: 'Svojstva rezerviranog mjesta',
 	toolbar: 'Napravi rezervirano mjesto',
 	text: 'Tekst rezerviranog mjesta',

@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'cy', {
+CKEDITOR.plugins.setLang( 'placeholder_single_single', 'cy', {
 	title: 'Priodweddau\'r Daliwr Geiriau',
 	toolbar: 'Creu Daliwr Geiriau',
 	text: 'Testun y Daliwr Geiriau',

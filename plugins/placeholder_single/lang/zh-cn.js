@@ -3,7 +3,7 @@
  * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
-CKEDITOR.plugins.setLang( 'placeholder', 'zh-cn', {
+CKEDITOR.plugins.setLang( 'placeholder_single', 'zh-cn', {
 	title: '占位符属性',
 	toolbar: '创建占位符',
 	text: '占位符文字',
