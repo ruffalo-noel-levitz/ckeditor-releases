@@ -23,7 +23,7 @@
 				);
 		},
 		init: function( editor ) {
-			var lang = editor.lang.placeholder;
+			var lang = editor.lang.placeholder_single;
 
 			editor.addCommand( 'createplaceholder', new CKEDITOR.dialogCommand( 'createplaceholder' ) );
 			editor.addCommand( 'editplaceholder', new CKEDITOR.dialogCommand( 'editplaceholder' ) );

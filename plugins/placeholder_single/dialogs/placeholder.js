@@ -6,7 +6,7 @@
 (function() {
 	function placeholderDialog( editor, isEdit ) {
 
-		var lang = editor.lang.placeholder,
+		var lang = editor.lang.placeholder_single,
 			generalLabel = editor.lang.common.generalTab;
 		return {
 			title: 'Receipt Merge Field',//lang.title,
