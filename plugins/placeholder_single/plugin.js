@@ -10,7 +10,7 @@
 
 (function() {
 	var placeholderReplaceRegex = /\[\[[^\]]+\]\]/g;
-	CKEDITOR.plugins.add( 'placeholder', {
+	CKEDITOR.plugins.add( 'placeholder_single', {
 		requires: 'dialog',
 		lang: 'en,bg,cs,cy,da,de,el,eo,et,fa,fi,fr,he,hr,it,ku,nb,nl,no,pl,tr,ug,uk,vi,zh-cn', // %REMOVE_LINE_CORE%
 		// icons: 'placeholder', // %REMOVE_LINE_CORE%
@@ -36,12 +36,12 @@
 			});
 
 			if ( editor.addMenuItems ) {
-				editor.addMenuGroup( 'placeholder', 20 );
+				editor.addMenuGroup( 'placeholder_single', 20 );
 				editor.addMenuItems({
 					editplaceholder: {
 						label: lang.edit,
 						command: 'editplaceholder',
-						group: 'placeholder',
+						group: 'placeholder_single',
 						order: 1,
 						// icon: 'placeholder'
 					}
@@ -58,7 +58,7 @@
 			}
 
 			editor.on( 'doubleclick', function( evt ) {
-				if ( CKEDITOR.plugins.placeholder.getSelectedPlaceHolder( editor ) )
+				if ( CKEDITOR.plugins.placeholder_single.getSelectedPlaceHolder( editor ) )
 					evt.data.dialog = 'editplaceholder';
 			});
 
@@ -81,7 +81,7 @@
 				dataFilter.addRules({
 					text: function( text ) {
 						return text.replace( placeholderReplaceRegex, function( match ) {
-							return CKEDITOR.plugins.placeholder.createPlaceholder( editor, null, match, 1 );
+							return CKEDITOR.plugins.placeholder_single.createPlaceholder( editor, null, match, 1 );
 						});
 					}
 				});
@@ -101,7 +101,7 @@
 	});
 })();
 
-CKEDITOR.plugins.placeholder = {
+CKEDITOR.plugins.placeholder_single = {
 	createPlaceholder: function( editor, oldElement, text, isGet ) {
 		var element = new CKEDITOR.dom.element( 'span', editor.document );
 		element.setAttributes({

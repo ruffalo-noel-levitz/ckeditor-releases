@@ -35,13 +35,13 @@
 					commit: function( element ) {
 						var text = '[[' + this.getValue() + ']]';
 						// The placeholder must be recreated.
-						CKEDITOR.plugins.placeholder.createPlaceholder( editor, element, text );
+						CKEDITOR.plugins.placeholder_single.createPlaceholder( editor, element, text );
 					}
 				}]
 			}],
 			onShow: function() {
 				if ( isEdit )
-					this._element = CKEDITOR.plugins.placeholder.getSelectedPlaceHolder( editor );
+					this._element = CKEDITOR.plugins.placeholder_single.getSelectedPlaceHolder( editor );
 
 				this.setupContent( this._element );
 			},
